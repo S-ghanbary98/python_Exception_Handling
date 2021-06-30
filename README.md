@@ -20,7 +20,7 @@
 - `+` This will open file for reading and writing(updating).
 
 
-** We have `try` `except` and `finally` **
+**We have `try` `except` and `finally`**
 - `try` works as `if condition`
 - `except` works as `elif`
 - `finally` works as else, finally will execute regardless of `try` or `except` conditions
