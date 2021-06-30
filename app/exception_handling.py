@@ -1,19 +1,18 @@
 
 
-
-
 class FileReaderWriter:
     def __init__(self, filename):
-        self.file_read(filename)
         self.filename = filename
+        self.file_read()
 
 
 
-    def file_read(self, filename):
+
+    def file_read(self):
         try:
-            file = open(filename)
+            file = open(self.filename)
             print("File found")
-            print("Contents of {}: {}".format(filename, file.read()))
+            print("Contents of {}: {}".format(self.filename, file.read()))
             content = file.read()
 
         except FileNotFoundError as errmsg:
