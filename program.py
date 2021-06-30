@@ -1,7 +1,8 @@
-from app.exception_handling import FileLocation
+from app.exception_handling import FileReaderWriter
 
 
 
-test = FileLocation("order.txt")
+test = FileReaderWriter("order.txt")
+test.file_write()
 
 print(test)
