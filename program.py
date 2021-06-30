@@ -2,6 +2,6 @@ from app.exception_handling import FileLocation
 
 
 
-test = FileLocation("app/order.txt")
+test = FileLocation("order.txt")
 
 print(test)
